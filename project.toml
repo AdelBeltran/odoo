@@ -1,14 +1,25 @@
 [[build.buildpacks]]
-uri = "paketo-buildpacks/apt"
+uri = "heroku/deb-packages"
 
 [[build.buildpacks]]
-uri = "google.python.runtime"
+uri = "gcr.io/buildpacks/google-python"
 
-[[build.buildpacks]]
-uri = "google.python.webserver"
-
-[[build.buildpacks]]
-uri = "google.python.uv"
-
-[[build.buildpacks]]
-uri = "google.utils.label-image"
+[com.heroku.buildpacks.deb-packages]
+install = [
+  "build-essential",
+  "gcc",
+  "libldap2-dev",
+  "libsasl2-dev",
+  "libssl-dev",
+  "libxml2-dev",
+  "libxslt1-dev",
+  "libjpeg-dev",
+  "zlib1g-dev",
+  "libpq-dev",
+  "libffi-dev",
+  "postgresql-client",
+  "node-less",
+  "npm",
+  "fontconfig",
+  "fonts-dejavu-core"
+]
