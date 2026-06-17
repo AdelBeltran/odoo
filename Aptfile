@@ -1,0 +1,16 @@
+build-essential
+gcc
+libldap2-dev
+libsasl2-dev
+libssl-dev
+libxml2-dev
+libxslt1-dev
+libjpeg-dev
+zlib1g-dev
+libpq-dev
+libffi-dev
+postgresql-client
+node-less
+npm
+fontconfig
+fonts-dejavu-core
