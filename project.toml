@@ -1,0 +1,5 @@
+[[build.buildpacks]]
+uri = "https://github.com/cloudfoundry/apt-buildpack"
+
+[[build.buildpacks]]
+uri = "gcr.io/buildpacks/google-python"
