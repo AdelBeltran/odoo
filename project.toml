@@ -8,9 +8,6 @@ uri = "google.python.runtime"
 uri = "google.python.webserver"
 
 [[build.buildpacks]]
-uri = "google.python.uv"
-
-[[build.buildpacks]]
 uri = "google.utils.label-image"
 
 [com.heroku.buildpacks.deb-packages]
