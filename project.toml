@@ -2,7 +2,16 @@
 uri = "heroku/deb-packages"
 
 [[build.buildpacks]]
-uri = "gcr.io/buildpacks/google-python"
+uri = "google.python.runtime"
+
+[[build.buildpacks]]
+uri = "google.python.webserver"
+
+[[build.buildpacks]]
+uri = "google.python.uv"
+
+[[build.buildpacks]]
+uri = "google.utils.label-image"
 
 [com.heroku.buildpacks.deb-packages]
 install = [
